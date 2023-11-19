@@ -9,11 +9,6 @@ while True:
 print("You guessed:", guess)
 
 #Task 2
-import random
-
-word_list = ["Apple", "Banana", "Orange", "Grapes", "Watermelon"]
-secret_word = random.choice(word_list)
-
 if guess in secret_word:
     print(f"Good guess! {guess} is in the word.")
 else:
